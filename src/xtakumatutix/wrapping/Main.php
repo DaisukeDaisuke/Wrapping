@@ -34,7 +34,7 @@ Class Main extends PluginBase implements Listener {
                     $sender->sendMessage("§c >> 空気のラッピングを行うことは出来ません。");
                     return true;
                 }
-                if ($itemhand->getNamedTag()->offsetExists("name")) {
+                if ($itemhand->getNamedTag()->offsetExists("item")) {
                     $sender->sendMessage("§c >> 2重ラッピングを行うことは出来ません。");
                     return true;
                 }
